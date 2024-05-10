@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-sushi",
+  "version": "0.1.1",
+  "description": "Sushi Config",
+  "keywords": [
+    "sushi",
+    "config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "author": "Matthew Lilley <hello@matthewLilley.com>",
+  "sideEffects": false,
+  "files": [
+    "nextjs/index.js",
+    "react/index.js"
+  ],
+  "dependencies": {
+    "@vercel/style-guide": "5.0.1",
+    "eslint-config-turbo": "1.12.4",
+    "eslint-plugin-mdx": "2.2.0",
+    "eslint-plugin-storybook": "0.6.15"
+  },
+  "devDependencies": {
+    "@types/eslint": "8.44.4",
+    "@types/node": "20",
+    "typescript": "5.2.2"
+  }
+}
